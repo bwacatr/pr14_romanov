@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1">Добавить задачу</string>
+    <string name="text1">Добавить задачу</string>
+    <string name="text2">Заголовок задачи</string>
+    <string name="text3">16:30</string>
+    <string name="text4">14.01.2021</string>
+    <string name="text5">Описание задачи</string>
+    <string name="text6">Записать задачу</string>
+    <string name="text7">Изменить будильник</string>
+    <string name="text8">Повторять каждый день</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="text9">Удалить будильник</string>
+    <string name="text10">Сохранить будильник</string>
+
+</resources>
