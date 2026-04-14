@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTaskActivity"
+    android:background="@color/green">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp">
+        <TextView
+            android:layout_height="28dp"
+            android:layout_width="196dp"
+            android:text="@string/text1"
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:src="@drawable/backbutton"
+            android:layout_marginLeft="-48dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        >
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape3"
+            android:layout_marginLeft="24dp">
+
+            <EditText
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:text="@string/text2"
+                android:textColor="@color/faintgray" />
+        </TableRow>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/shape4">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:background="@drawable/clock_button"
+                android:src="@drawable/clock2"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+
+                android:text="@string/text3"
+                android:textColor="@color/faintgray" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/shape4">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:background="@drawable/clock_button"
+                android:src="@drawable/graycalendar"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+
+                android:text="@string/text4"
+                android:textColor="@color/faintgray" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/shape5">
+
+            <EditText
+                android:layout_width="297dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="9dp"
+
+                android:text="@string/text5"
+                android:textColor="@color/faintgray" />
+
+        </TableRow>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="240dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_marginLeft="24dp"
+            android:textAllCaps="false"
+            android:text="@string/text6"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+
+</TableLayout>

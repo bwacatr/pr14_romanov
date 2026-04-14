@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button1">Добавить задачу</string>
+    <string name="text1">Добавить задачу</string>
+    <string name="text2">Заголовок задачи</string>
+    <string name="text3">16:30</string>
+    <string name="text4">14.01.2021</string>
+    <string name="text5">Описание задачи</string>
+    <string name="text6">Записать задачу</string>
+    <string name="text7">Изменить будильник</string>
+    <string name="text8">Повторять каждый день</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="text9">Удалить будильник</string>
+    <string name="text10">Сохранить будильник</string>
+    <string name="text11">Список дел</string>
+    <string name="text12">Вечерний поход в кино</string>
+    <string name="text13">10.02.2021</string>
+    <string name="text14">19:40</string>
+    <string name="text15">Идем в кино с коллегами</string>
+    <string name="text16">Забрать заказ Ozon</string>
+    <string name="text17">Пункт выдачи на ул. Ленина, 103</string>
+    <string name="text18">Запись в автосервис</string>
+    <string name="text19">Сдать автомобиль в автосервис на ул.</string>
+    <string name="text20">Бисертская, д. 14. Замена масла</string>
+    <string name="list">List</string>
+    <string name="Alarm">Alarm</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Settings">Settings</string>
+    <string name="profile">Профиль пользователя</string>
+    <string name="entry">Вход не выполнен</string>
+    <string name="login">Войти</string>
+    <string name="register">Регистрация</string>
+
+</resources>

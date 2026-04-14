@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="411dp"
+    android:layout_height="731dp"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/text7"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_column="0"
+        android:textStyle="bold"
+        />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back"
+        android:src="@drawable/backbutton"
+
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="11dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_marginTop="39dp">
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:background="@drawable/shape4">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/clock_button"
+                android:src="@drawable/clock2" />
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+
+                android:text="@string/text3"
+                android:textColor="@color/faintgray" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="67dp"
+            android:background="@drawable/shape4">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/clock_button"
+                android:src="@drawable/graycalendar" />
+
+            <EditText
+                android:layout_width="105dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+
+                android:text="@string/text4"
+                android:textColor="@color/faintgray" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/text8"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="19dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/monday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/tuesday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/wednesday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/thursday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/friday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/saturday"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="24dp"
+        android:text="@string/sunday"
+        android:textColor="@color/white"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button2"
+        android:layout_marginLeft="50dp"
+
+        android:text="@string/text9"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_row="10"
+        android:layout_marginBottom="16dp"
+        android:layout_rowWeight="200"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/text10"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:textAllCaps="false"
+        android:layout_row="11"
+
+
+        />
+
+
+
+
+</GridLayout>
